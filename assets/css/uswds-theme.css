@@ -8594,7 +8594,7 @@ footer { margin-top: auto; order: 10; }
 
 .usa-header .usa-nav__secondary-links a:hover { color: #1a4480; }
 
-.usa-hero .usa-hero__callout { background-color: #162e51; }
+.usa-hero .usa-hero__callout { background-color: #1a4480; }
 
 .usa-hero .usa-hero__callout h1, .usa-hero .usa-hero__callout h2, .usa-hero .usa-hero__callout h3, .usa-hero .usa-hero__callout h4, .usa-hero .usa-hero__callout h5, .usa-hero .usa-hero__callout h6 { color: #00bde3; }
 
@@ -8624,7 +8624,7 @@ footer { margin-top: auto; order: 10; }
 
 .usa-header .usa-nav__link:hover { background-color: white; }
 
-.usa-header .usa-nav__link span { color: #565c65; }
+.usa-header .usa-nav__link span { color: #1b1b1b; }
 
 .usa-header .usa-nav__link.usa-current span { color: #005ea2; }
 
@@ -8678,3 +8678,21 @@ i.e.
 .usa-layout-docs__sidenav, .usa-layout-docs__main { width: 100%; overflow: hidden; }
 
 @media all and (min-width: 64em) { body { display: flex; flex-direction: column; min-height: 100vh; } }
+
+.usa-header .usa-logo { background: #162e51; padding: 0.5rem; }
+
+.usa-header .usa-logo a { color: white; }
+
+.no-hero header { padding-bottom: 20px; background-image: url("/ei-prototype-v1-static/assets/img/background-slice-1.jpg"); background-position-y: bottom; background-size: 100% 5px; background-repeat: no-repeat; }
+
+.usa-hero__callout { max-width: 40rem; }
+
+.usa-prose > p { max-width: 100%; }
+
+.usa-content p, .usa-content ul:not(.usa-accordion):not(.usa-accordion--bordered), .usa-content ol:not(.usa-accordion):not(.usa-accordion--bordered) { max-width: 100%; }
+
+.usa-card__container { border-radius: 0; }
+
+.usa-card--flag .usa-card__img { border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; background-color: white; }
+
+.usa-card--flag .usa-card__img img { height: auto; }
